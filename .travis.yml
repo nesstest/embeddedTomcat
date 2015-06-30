@@ -1,0 +1,10 @@
+language: java
+jdk:
+- oraclejdk7
+deploy:
+  provider: heroku
+  api_key:
+    secure: EzTK+ahwMNQZRTUA82rU5KOZJl6rEqqpsDenTgcweJNO3CNQjkrh7fHQKaViiVVJRsAy2aa+9fI8oIRptfi3GBPUtJhwF/jAiIXoHEhAs1oFg/e0X0j1O7BiDfetFFyKpLtvy/xicji/gUxJVDo3Kj//cd9DBzVp0xik24CUuq0hESRAEMgyIs8XBub8QTUvaSgcIDXkNeMHq/yGFCMFi7QlZ05gTuFaduLoGoK7OZaBQ+HE/yO47ueh7WFZTJ2WQrij5MVrH5biBaNDHFizdgBoIrtPoJGXjsKgxOIx0Y8ZSddVYDhzW3YjGxV3tym3TdKfmRC0LH4nN+lZ7oOKIPcnYcUP2vgYxfl0MNaqcZRIogWX2QdCkd26ZnW/6c0oM9C11CfMc1hQiCc7vZ6/kjvi3R9zJ5RuW+BmV0k+tnru0PI8lWFU5EHwiIzEIe10J54LYf26fm96JLxv2oWUpZAU3FkRav6aJoQzrA23cImiWxh9Q9vGZq/MkwfDQdtbjRY0k3aHpckcSFnzcb0xrDRsnBwvdjPEcrSK8e9flvD3Afb9/ZlVik41XAzUViG1Xn5rG3jgYwwW00hc681ej7b5KnDICzQYTHHIwuuSKVZn6ZtkPJSSK4wRvo4GxA2Gr9MPYnMxSGV/Mk1jU4exXKosZdV/9t38RtCLJJsOgEE=
+  app: test-embeded-tomcat
+  on:
+    repo: nesstest/embeddedTomcat
